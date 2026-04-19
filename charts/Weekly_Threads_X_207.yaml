@@ -1,0 +1,47 @@
+slice_name: Weekly Threads X
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number
+params:
+  datasource: 9__table
+  viz_type: big_number
+  slice_id: 207
+  x_axis: ts
+  time_grain_sqla: PT1S
+  aggregation: LAST_VALUE
+  metric: count
+  adhoc_filters:
+  - clause: WHERE
+    comparator: '2020-08-05T00:00:00 : 2020-09-06T00:00:00'
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: ts
+  compare_lag: 1
+  compare_suffix: WoW
+  show_timestamp: false
+  show_trend_line: true
+  start_y_axis_at_zero: true
+  color_picker:
+    a: 1
+    b: 135
+    g: 122
+    r: 0
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  subtitle_font_size: 0.15
+  show_metric_name: false
+  metric_name_font_size: 0.15
+  y_axis_format: SMART_NUMBER
+  time_format: smart_date
+  force_timestamp_formatting: false
+  rolling_type: None
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":9,"type":"table"},"force":false,"queries":[{"filters":[{"col":"ts","op":"TEMPORAL_RANGE","val":"2020-08-05T00:00:00
+  : 2020-09-06T00:00:00"}],"extras":{"time_grain_sqla":"PT1S","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"PT1S","columnType":"BASE_AXIS","sqlExpression":"ts","label":"ts","expressionType":"SQL","isColumnReference":true}],"metrics":["count"],"annotation_layers":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"pivot","options":{"index":["ts"],"columns":[],"aggregates":{"count":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"9__table","viz_type":"big_number","slice_id":207,"x_axis":"ts","time_grain_sqla":"PT1S","aggregation":"LAST_VALUE","metric":"count","adhoc_filters":[{"clause":"WHERE","comparator":"2020-08-05T00:00:00
+  : 2020-09-06T00:00:00","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"ts"}],"compare_lag":1,"compare_suffix":"WoW","show_timestamp":false,"show_trend_line":true,"start_y_axis_at_zero":true,"color_picker":{"a":1,"b":135,"g":122,"r":0},"header_font_size":0.4,"subheader_font_size":0.15,"subtitle_font_size":0.15,"show_metric_name":false,"metric_name_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","force_timestamp_formatting":false,"rolling_type":"None","extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: d9d4dc4a-2046-4837-81d1-79aac9cade21
+version: 1.0.0
+dataset_uuid: d7438be6-6078-17dd-cf9a-56f0ef546c80
