@@ -1,0 +1,38 @@
+slice_name: Daily Totals
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  compare_lag: '10'
+  compare_suffix: o10Y
+  granularity_sqla: ds
+  groupby:
+  - ds
+  limit: '25'
+  markup_type: markdown
+  metrics:
+  - aggregate: SUM
+    column:
+      column_name: num
+      type: BIGINT
+    expressionType: SIMPLE
+    label: Births
+    optionName: metric_11
+  row_limit: 50000
+  time_range: '1983 : 2023'
+  viz_type: table
+query_context: "{\n    \"datasource\": {\n        \"id\": 2,\n        \"type\": \"\
+  table\"\n    },\n    \"queries\": [\n        {\n            \"columns\": [\n   \
+  \             \"ds\"\n            ],\n            \"metrics\": [\n             \
+  \   {\n                    \"aggregate\": \"SUM\",\n                    \"column\"\
+  : {\n                        \"column_name\": \"num\",\n                       \
+  \ \"type\": \"BIGINT\"\n                    },\n                    \"expressionType\"\
+  : \"SIMPLE\",\n                    \"label\": \"Births\",\n                    \"\
+  optionName\": \"metric_11\"\n                }\n            ],\n            \"time_range\"\
+  : \"1983 : 2023\"\n        }\n    ],\n    \"result_format\": \"json\",\n    \"result_type\"\
+  : \"full\"\n}"
+cache_timeout: null
+uuid: a8cd38a2-0c86-4457-985e-7a709475ce1d
+version: 1.0.0
+dataset_uuid: 8c4f5d98-8f3e-4206-b6b6-7add4224e1e8

@@ -1,0 +1,22 @@
+slice_name: Genders
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  compare_lag: '10'
+  compare_suffix: o10Y
+  granularity_sqla: ds
+  groupby:
+  - gender
+  limit: '25'
+  markup_type: markdown
+  metric: sum__num
+  row_limit: 50000
+  time_range: '100 years ago : now'
+  viz_type: pie
+query_context: null
+cache_timeout: null
+uuid: bb95aae4-ae2b-40af-b0a7-31ada0d0cbd9
+version: 1.0.0
+dataset_uuid: 8c4f5d98-8f3e-4206-b6b6-7add4224e1e8

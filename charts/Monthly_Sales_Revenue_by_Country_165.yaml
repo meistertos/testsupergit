@@ -1,0 +1,36 @@
+slice_name: Monthly Sales Revenue by Country
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  viz_type: echarts_timeseries_bar
+  metrics:
+  - expressionType: SQL
+    sqlExpression: SUM(sales)
+    label: SUM(sales)
+  groupby:
+  - country
+  adhoc_filters: []
+  row_limit: 10000
+  order_desc: true
+  show_legend: true
+  rich_tooltip: true
+  color_scheme: supersetColors
+  contributionMode: null
+  orientation: vertical
+  show_value: true
+  stack: false
+  only_total: true
+  zoomable: false
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  truncateYAxis: false
+  x_axis: order_date
+  time_grain_sqla: P1M
+  time_range: No filter
+query_context: null
+cache_timeout: null
+uuid: 75425f1b-dd29-4b59-8c39-ff065c9066f9
+version: 1.0.0
+dataset_uuid: 7d02f5ad-1034-4d54-aa6a-e1c359b8db71

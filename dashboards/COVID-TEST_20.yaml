@@ -1,0 +1,155 @@
+dashboard_title: COVID-TEST
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: true
+uuid: 1c79bcd2-4fc9-4caa-9bcf-71600a93c33e
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    type: ROOT
+    id: ROOT_ID
+    children:
+    - GRID_ID
+  GRID_ID:
+    type: GRID
+    id: GRID_ID
+    children:
+    - ROW-added-167
+    - ROW-added-168
+    - ROW-N-ZK9LSLDR
+    parents:
+    - ROOT_ID
+  HEADER_ID:
+    type: HEADER
+    id: HEADER_ID
+    meta:
+      text: COVID-TEST
+  CHART-167:
+    type: CHART
+    id: CHART-167
+    children: []
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-added-167
+    meta:
+      width: 12
+      height: 50
+      chartId: 167
+      sliceName: Top Vaccine Category by Country
+  ROW-added-167:
+    type: ROW
+    id: ROW-added-167
+    children:
+    - CHART-167
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    meta:
+      background: BACKGROUND_TRANSPARENT
+  CHART-168:
+    type: CHART
+    id: CHART-168
+    children: []
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-added-168
+    meta:
+      width: 12
+      height: 50
+      chartId: 168
+      sliceName: Vaccine Categories Worldwide
+  ROW-added-168:
+    type: ROW
+    id: ROW-added-168
+    children:
+    - CHART-168
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    meta:
+      background: BACKGROUND_TRANSPARENT
+  ROW-N-ZK9LSLDR:
+    children:
+    - CHART-8GZSGYR4
+    - CHART-DRGBUUM0
+    id: ROW-N-ZK9LSLDR
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-8GZSGYR4:
+    children: []
+    id: CHART-8GZSGYR4
+    meta:
+      chartId: 168
+      height: 50
+      sliceName: Vaccine Categories Worldwide
+      uuid: e2edb867-7e26-4f69-92cf-a97b3b0d859c
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-ZK9LSLDR
+  CHART-DRGBUUM0:
+    children: []
+    id: CHART-DRGBUUM0
+    meta:
+      chartId: 167
+      height: 50
+      sliceName: Top Vaccine Category by Country
+      uuid: 967b62a7-f108-4a86-b196-52b16b1a6449
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-ZK9LSLDR
+metadata:
+  default_filters: '{}'
+  color_scheme: ''
+  label_colors: {}
+  shared_label_colors:
+  - DNA-based
+  - Inactivated virus
+  - Live attenuated virus
+  - Non-replicating viral vector
+  - Protein subunit
+  - RNA-based vaccine
+  - Replicating bacterial vector
+  - Replicating viral vector
+  - Virus-like particle
+  color_scheme_domain: []
+  expanded_slices: {}
+  refresh_frequency: 0
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  native_filter_configuration: []
+  chart_configuration:
+    '167':
+      id: 167
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded: []
+        chartsInScope: []
+    '168':
+      id: 168
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded: []
+        chartsInScope: []
+  map_label_colors: {}
+theme_uuid: null
+version: 1.0.0

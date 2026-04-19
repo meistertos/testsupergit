@@ -1,0 +1,38 @@
+slice_name: Monthly Order Count by Country
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  viz_type: echarts_timeseries_bar
+  metrics:
+  - expressionType: SQL
+    sqlExpression: COUNT(*)
+    label: COUNT(*)
+  groupby:
+  - country
+  adhoc_filters: []
+  row_limit: 10000
+  order_desc: true
+  show_legend: true
+  rich_tooltip: true
+  color_scheme: supersetColors
+  contributionMode: null
+  orientation: vertical
+  show_value: true
+  stack: false
+  only_total: true
+  zoomable: false
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  truncateYAxis: false
+  x_axis: order_date
+  time_grain_sqla: P1M
+  time_range: No filter
+query_context: '{"datasource":{"id":28,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","filters":[],"extras":{"time_grain_sqla":"P1M","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1M","columnType":"BASE_AXIS","sqlExpression":"order_date","label":"order_date","expressionType":"SQL","isColumnReference":true},"country"],"metrics":[{"expressionType":"SQL","label":"COUNT(*)","sqlExpression":"COUNT(*)"}],"orderby":[[{"expressionType":"SQL","label":"COUNT(*)","sqlExpression":"COUNT(*)"},false]],"annotation_layers":[],"row_limit":10000,"series_columns":["country"],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["order_date"],"columns":["country"],"aggregates":{"COUNT(*)":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"adhoc_filters":[],"color_scheme":"supersetColors","contributionMode":null,"datasource":"28__table","groupby":["country"],"metrics":[{"expressionType":"SQL","label":"COUNT(*)","sqlExpression":"COUNT(*)"}],"only_total":true,"order_desc":true,"orientation":"vertical","rich_tooltip":true,"row_limit":10000,"show_legend":true,"show_value":true,"slice_id":164,"stack":false,"time_grain_sqla":"P1M","time_range":"No
+  filter","truncateYAxis":false,"viz_type":"echarts_timeseries_bar","x_axis":"order_date","x_axis_title_margin":15,"y_axis_title_margin":15,"zoomable":false,"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 9a6a25a8-1a55-4dbe-8f01-f558cc1d987e
+version: 1.0.0
+dataset_uuid: 7d02f5ad-1034-4d54-aa6a-e1c359b8db71
