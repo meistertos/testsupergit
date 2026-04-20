@@ -26,7 +26,27 @@ params:
   y_axis_title_margin: 15
   truncateYAxis: false
   x_axis: product_category
-query_context: '{"datasource":{"id":27,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"columnType":"BASE_AXIS","sqlExpression":"product_category","label":"product_category","expressionType":"SQL","isColumnReference":true}],"metrics":[{"expressionType":"SQL","label":"max","sqlExpression":"max"}],"orderby":[[{"expressionType":"SQL","label":"max","sqlExpression":"max"},false]],"annotation_layers":[],"row_limit":10000,"series_columns":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["product_category"],"columns":[],"aggregates":{"max":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"adhoc_filters":[],"color_scheme":"supersetColors","contributionMode":null,"datasource":"27__table","groupby":[],"metrics":[{"expressionType":"SQL","label":"max","sqlExpression":"max"}],"only_total":true,"order_desc":true,"orientation":"vertical","rich_tooltip":true,"row_limit":10000,"show_legend":true,"show_value":true,"slice_id":124,"stack":false,"truncateYAxis":false,"viz_type":"echarts_timeseries_bar","x_axis":"product_category","x_axis_title_margin":15,"y_axis_title_margin":15,"zoomable":false,"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+  datasource: 27__table
+  annotation_layers: []
+query_context: '{"datasource": {"id": 27, "type": "table"}, "force": false, "queries":
+  [{"filters": [], "extras": {"having": "", "where": ""}, "applied_time_extras": {},
+  "columns": [{"columnType": "BASE_AXIS", "sqlExpression": "product_category", "label":
+  "product_category", "expressionType": "SQL", "isColumnReference": true}], "metrics":
+  [{"expressionType": "SQL", "label": "max", "sqlExpression": "max"}], "orderby":
+  [[{"expressionType": "SQL", "label": "max", "sqlExpression": "max"}, false]], "annotation_layers":
+  [], "row_limit": 10000, "series_columns": [], "series_limit": 0, "group_others_when_limit_reached":
+  false, "order_desc": true, "url_params": {}, "custom_params": {}, "custom_form_data":
+  {}, "time_offsets": [], "post_processing": [{"operation": "pivot", "options": {"index":
+  ["product_category"], "columns": [], "aggregates": {"max": {"operator": "mean"}},
+  "drop_missing_columns": true}}, {"operation": "flatten"}]}], "form_data": {"adhoc_filters":
+  [], "color_scheme": "supersetColors", "contributionMode": null, "datasource": "27__table",
+  "groupby": [], "metrics": [{"expressionType": "SQL", "label": "max", "sqlExpression":
+  "max"}], "only_total": true, "order_desc": true, "orientation": "vertical", "rich_tooltip":
+  true, "row_limit": 10000, "show_legend": true, "show_value": true, "slice_id": 124,
+  "stack": false, "truncateYAxis": false, "viz_type": "echarts_timeseries_bar", "x_axis":
+  "product_category", "x_axis_title_margin": 15, "y_axis_title_margin": 15, "zoomable":
+  false, "force": false, "result_format": "json", "result_type": "full"}, "result_format":
+  "json", "result_type": "full"}'
 cache_timeout: null
 uuid: 5dac2f99-9481-4d08-abdf-cb20421e903e
 version: 1.0.0

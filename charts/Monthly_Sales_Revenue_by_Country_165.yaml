@@ -29,6 +29,8 @@ params:
   x_axis: order_date
   time_grain_sqla: P1M
   time_range: No filter
+  datasource: 28__table
+  annotation_layers: []
 query_context: null
 cache_timeout: null
 uuid: 75425f1b-dd29-4b59-8c39-ff065c9066f9

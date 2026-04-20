@@ -24,9 +24,25 @@ params:
   time_range: No filter
   innerRadius: 30
   outerRadius: 70
-query_context: '{"datasource":{"id":29,"type":"table"},"force":false,"queries":[{"time_range":"No
-  filter","filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["product_category"],"metrics":[{"expressionType":"SQL","label":"SUM(candidate_count)","sqlExpression":"SUM(candidate_count)"}],"orderby":[[{"expressionType":"SQL","label":"SUM(candidate_count)","sqlExpression":"SUM(candidate_count)"},false]],"annotation_layers":[],"row_limit":100,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"contribution","options":{"columns":["SUM(candidate_count)"],"rename_columns":["SUM(candidate_count)__contribution"]}}]}],"form_data":{"adhoc_filters":[],"color_scheme":"supersetColors","datasource":"29__table","date_format":"smart_date","groupby":["product_category"],"innerRadius":30,"label_type":"key_percent","metric":{"expressionType":"SQL","label":"SUM(candidate_count)","sqlExpression":"SUM(candidate_count)"},"number_format":"SMART_NUMBER","outerRadius":70,"row_limit":100,"show_labels":true,"show_labels_threshold":5,"show_legend":true,"slice_id":168,"sort_by_metric":true,"time_range":"No
-  filter","viz_type":"pie","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+  datasource: 29__table
+  annotation_layers: []
+query_context: '{"datasource": {"id": 29, "type": "table"}, "force": false, "queries":
+  [{"time_range": "No filter", "filters": [], "extras": {"having": "", "where": ""},
+  "applied_time_extras": {}, "columns": ["product_category"], "metrics": [{"expressionType":
+  "SQL", "label": "SUM(candidate_count)", "sqlExpression": "SUM(candidate_count)"}],
+  "orderby": [[{"expressionType": "SQL", "label": "SUM(candidate_count)", "sqlExpression":
+  "SUM(candidate_count)"}, false]], "annotation_layers": [], "row_limit": 100, "series_limit":
+  0, "group_others_when_limit_reached": false, "order_desc": true, "url_params": {},
+  "custom_params": {}, "custom_form_data": {}, "post_processing": [{"operation": "contribution",
+  "options": {"columns": ["SUM(candidate_count)"], "rename_columns": ["SUM(candidate_count)__contribution"]}}]}],
+  "form_data": {"adhoc_filters": [], "color_scheme": "supersetColors", "datasource":
+  "29__table", "date_format": "smart_date", "groupby": ["product_category"], "innerRadius":
+  30, "label_type": "key_percent", "metric": {"expressionType": "SQL", "label": "SUM(candidate_count)",
+  "sqlExpression": "SUM(candidate_count)"}, "number_format": "SMART_NUMBER", "outerRadius":
+  70, "row_limit": 100, "show_labels": true, "show_labels_threshold": 5, "show_legend":
+  true, "slice_id": 168, "sort_by_metric": true, "time_range": "No filter", "viz_type":
+  "pie", "force": false, "result_format": "json", "result_type": "full"}, "result_format":
+  "json", "result_type": "full"}'
 cache_timeout: null
 uuid: e2edb867-7e26-4f69-92cf-a97b3b0d859c
 version: 1.0.0

@@ -114,7 +114,6 @@ position:
     - GRID_ID
     - ROW-N-I7L4N63N
 metadata:
-  default_filters: '{}'
   color_scheme: ''
   label_colors: {}
   shared_label_colors:

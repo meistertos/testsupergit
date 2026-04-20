@@ -28,6 +28,8 @@ params:
   stack: true
   only_total: true
   truncateYAxis: false
+  datasource: 29__table
+  annotation_layers: []
 query_context: null
 cache_timeout: null
 uuid: 967b62a7-f108-4a86-b196-52b16b1a6449
