@@ -19,7 +19,7 @@ position:
     children:
     - ROW-added-167
     - ROW-added-168
-    - ROW-N-6HBLX63N
+    - ROW-N-ZZVYHC0Z
     parents:
     - ROOT_ID
   HEADER_ID:
@@ -73,11 +73,11 @@ position:
     - GRID_ID
     meta:
       background: BACKGROUND_TRANSPARENT
-  ROW-N-6HBLX63N:
+  ROW-N-ZZVYHC0Z:
     children:
-    - CHART-9WC9XV1M
-    - CHART-377CV5GE
-    id: ROW-N-6HBLX63N
+    - CHART-AD6N9AX8
+    - CHART-JWKS8SDZ
+    id: ROW-N-ZZVYHC0Z
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -85,23 +85,9 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-9WC9XV1M:
+  CHART-AD6N9AX8:
     children: []
-    id: CHART-9WC9XV1M
-    meta:
-      chartId: 167
-      height: 50
-      sliceName: Top Vaccine Category by Country
-      uuid: 967b62a7-f108-4a86-b196-52b16b1a6449
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-6HBLX63N
-  CHART-377CV5GE:
-    children: []
-    id: CHART-377CV5GE
+    id: CHART-AD6N9AX8
     meta:
       chartId: 168
       height: 50
@@ -112,7 +98,21 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-6HBLX63N
+    - ROW-N-ZZVYHC0Z
+  CHART-JWKS8SDZ:
+    children: []
+    id: CHART-JWKS8SDZ
+    meta:
+      chartId: 167
+      height: 50
+      sliceName: Top Vaccine Category by Country
+      uuid: 967b62a7-f108-4a86-b196-52b16b1a6449
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-ZZVYHC0Z
 metadata:
   default_filters: '{}'
   color_scheme: ''
